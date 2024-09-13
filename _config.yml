@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Biodesign Center for Biocomputing, Security, and Society
+url: http://bss.biodesign.asu.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -11,6 +11,8 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Sections on the "people" page.
 roles:
+  - key: director
+    name: Center Director
   - key: faculty
     name: Faculty
   - key: staff
@@ -49,5 +51,3 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
-  - title: Code
-    link: /code.html
