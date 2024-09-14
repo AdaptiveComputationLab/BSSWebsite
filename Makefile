@@ -23,8 +23,8 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= yourwebpage.com
-DEPLOY_PATH ?= www/
+DEPLOY_HOST ?= $(WEBUSERNAME)@10.107.22.181
+DEPLOY_PATH ?= /var/www/bss.biodesign.asu.edu/html
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
 
 deploy: clean build
